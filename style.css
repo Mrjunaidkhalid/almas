@@ -1,0 +1,95 @@
+body {
+  background-color: #E91E63;
+  padding:70px 0;
+}
+
+.center {
+  width: 320px;
+  margin: 0 auto;
+  line-height:20px;
+  font-family:sans-serif;
+  text-align:center;
+  color:#fff;
+}
+.container{
+  margin: 0 auto;
+  width: 320px;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+
+.valentines {
+font-family: 'Allura', cursive;
+  color: oldlace;
+  font-weight: 400;
+  font-size:60px;
+  line-height:90px;
+  margin-top: 40px;
+  border-bottom: 1px dotted oldlace;
+  
+}
+.heart {
+  color:oldlace;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  animation-name: movement;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.anim1 {
+  animation-delay: 1s;
+}
+.anim2 {
+  animation-delay: 1.5s;
+}
+.anim3 {
+  animation-delay: 0.5s;
+}
+.anim4 {
+  animation-delay: 1.9s;
+}
+
+@keyframes movement {
+  0%{
+   
+    bottom: 0;
+    right: 50px;
+  }
+  20%{
+    color: hotpink;
+    right: 40px;
+  }
+  40%{
+    right: 60px;
+  }
+  
+  50%{ 
+    right: 50px;
+  }
+  60%{
+    right: 40px;
+  }
+  70%{
+    right: 50px;
+  }
+  80%{
+    right: 45px;
+  }
+  90%{
+    right: 50px;
+  }
+  100%{
+    bottom: 150px;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+  }
+}
+
+span.jk {font-family: 'Mr Dafoe', cursive;font-size:35px;display:block;line-height:50px;
+}
