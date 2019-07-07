@@ -1,8 +1,13 @@
 body {
   background-color: #E91E63;
   padding:70px 0;
+  font-family:'Oswald', sans-serif;
 }
-
+@import url('https://fonts.googleapis.com/css?family=Merienda|Oswald&display=swap');
+ul{
+  margin:0;
+  padding:0;
+}
 .center {
   width: 320px;
   margin: 0 auto;
