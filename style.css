@@ -34,7 +34,15 @@ font-family: 'Allura', cursive;
   line-height:90px;
   margin-top: 40px;
   border-bottom: 1px dotted oldlace;
-  
+  background: 
+    linear-gradient(
+      45deg,
+        #09447B 0, 
+        #8f0044 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 .heart {
   color:oldlace;
