@@ -1,117 +1,58 @@
 body {
-background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-  height:100vh;
-font-family: "Merienda", sans-serif;
+    margin: 0px;
+    overflow: hidden;
+    background: #fff;
 }
-.container {
-  max-width:480px;
-  background:;
-  text-align:center;
-  -webkit-transform-origin : 50% 50% 30px;
--webkit-transform : rotateY(0);
--webkit-transform-style : preserve-3d;
--webkit-transition : all 1s ease;
--moz-transform-origin : 50% 50% 30px;
--moz-transform : rotateY(0);
--moz-transform-style : preserve-3d;
--moz-transition : all 1s ease;
-  transform-origin : 50% 50% 30px;
-  transform : rotateY(0);
-  transform-style : preserve-3d;
-  transition : all 1s ease;
-/* OMBRE */
--webkit-box-shadow : 0 0 15px #333;
--moz-box-shadow : 0 0 15px #333;
-  box-shadow : 0 0 15px #333;
-  padding:50px;
-  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
-  margin:100px auto;
+ .love-card svg{
+   position:absolute;
+   width:70%;
+   right:0;
+   opacity:0.2;
 }
-ul{
-  margin:0;
-  padding:0;
-  font-family: "Merienda", sans-serif;
-  line-height:1.5;
-  font-size: 20px;
+@media(max-width:786px){
+   .love-card svg{
+   width:100%;
+   top:0;
 }
-.center {
-  margin: 0 auto;
-  line-height:20px;
-  font-family:sans-serif;
-  text-align:center;
-  color:#fff;
 }
 
-.valentines {
-    font-family: 'Allura', cursive;
-    color: #292929;
-    text-shadow: 2px 1px #00000047;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 90px;
-    margin-top: 40px;
+.love-card p{
+   font-size: 20px;
+   color: #8a8a8a;
+   font-weight:600;
+   line-height:1.7;
 }
+span{
+   transition: all cubic-bezier(.55,0,.1,1) 0.4s;
+   position: relative;
+   top: 0px;
+}
+.love-card .content {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    color: black;
+    z-index: 9999;
+    max-width: 600px;
+   min-width:320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.love-card .content h1{
+   color:#DE0040;
+       font-family: 'Poppins', sans-serif;
+}
+.love-card .content .author{
+font-family: 'Mrs Saint Delafield', cursive;
+font-size:60px}
+
+.lover {
+  font-family:'Poppins', sans-serif;
+   font-size:35px;
+}
+
 .heart {
-  color:oldlace;
-  font-size: 85px;
-  position: absolute;
-  bottom: 0;
-  right: 50px;
-  animation-name: movement;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.anim1 {
-  animation-delay: 1s;
-}
-.anim2 {
-  animation-delay: 1.5s;
-}
-.anim3 {
-  animation-delay: 0.5s;
-}
-.anim4 {
-  animation-delay: 1.9s;
-}
-
-@keyframes movement {
-  0%{
-   
-    bottom: 0;
-    right: 50px;
-  }
-  20%{
-    color: red;
-    right: 40px;
-  }
-  40%{
-    right: 60px;
-  }
-  
-  50%{ 
-    right: 50px;
-  }
-  60%{
-    right: 40px;
-  }
-  70%{
-    right: 50px;
-  }
-  80%{
-    right: 45px;
-  }
-  90%{
-    right: 50px;
-  }
-  100%{
-    bottom: 150px;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    opacity: 0;
-  }
-}
-
-span.jk {font-size:35px;display:block;line-height:50px;
+  transition: all 0.3s;
+  color: #EA4646;
 }
