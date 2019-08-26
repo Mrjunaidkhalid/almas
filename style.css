@@ -9,17 +9,10 @@ body {
    right:0;
    opacity:0.2;
 }
-@media(max-width:786px){
-   .love-card svg{
-   width:100%;
-   top:0;
-}
-}
+
 
 .love-card p{
-   font-size: 20px;
    color: #8a8a8a;
-   font-weight:600;
    line-height:1.7;
 }
 span{
@@ -38,6 +31,8 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight:400;
+   font-size: 20px;
 }
 .love-card .content h1{
    color:#DE0040;
@@ -55,4 +50,21 @@ font-size:60px}
 .heart {
   transition: all 0.3s;
   color: #EA4646;
+}
+@media(max-width:786px){
+   .love-card svg{
+   width:100%;
+   top:0;
+}
+.love-card .content{
+  font-size:15px;
+  min-width:90%;
+}
+.lover,
+.love-card .content h1{
+  font-size:150%;
+}
+.love-card .content .author{
+    font-size:300%;
+}
 }
